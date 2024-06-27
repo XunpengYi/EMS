@@ -23,7 +23,7 @@ The EMS-Full dataset will be available at here (to be done).
 ![EMS_full](assert/EMS_full.png)
 
 ## Citation
-If you used our restored or degraded images, please cite our paper:
+If you use the dataset or our restored/degraded images, please cite our paper:
 ```
 @inproceedings{yi2024text,
   title={Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion},
