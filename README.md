@@ -4,7 +4,7 @@ Recently, researchers have actively carried out research on enhanced image fusio
 
 We construct the Enhanced Multi-Spectral Various Scenarios Dataset for Degradation-Aware Image Fusion based on the original data of the [MFNet](https://www.mi.t.utokyo.ac.jp/static/projects/mil_multispectral/), [RoadScene](https://github.com/hanna-xu/RoadScene)/[FLIR_aligned](https://adas-dataset-v2.flirconservator.com/#downloadguide), [LLVIP](https://github.com/bupt-ai-cz/LLVIP) and [FMB](https://github.com/JinyuanLiu-CV/SegMiF).
 
-⭐⭐News: The code for the simulated degradation has also been released at [here](https://github.com/XunpengYi/EMS/tree/main/EMS_make_degradation_func), and it is now available for use. Researchers can freely simulate on their own required data. If you find this repo useful for your research, please cite our paper and star this repo.
+⭐⭐News: The code for the simulated degradation has also been released at [`EMS_make_degradation_func`](https://github.com/XunpengYi/EMS/tree/main/EMS_make_degradation_func), and it is now available for use. Researchers can freely simulate on their own required data. If you find this repo useful for your research, please cite our paper and star this repo.
 
 ## EMS-Lite
 EMS-Lite contains the low-quality and high-quality multi-spectral scenarios images along with the text prompts, enriching from the Text-IF dataset.
