@@ -2,7 +2,9 @@
 
 Recently, researchers have actively carried out research on enhanced image fusion involving degradation perception. We construct a fusion dataset benchmark with multiple degradation types on exist dataset, which implicates multiple explicit degradations on the sources images. 
 
-We construct the Enhanced Multi-Spectral Various Scenarios Dataset for Degradation-Aware Image Fusion based on the original data of the [MFNet](https://www.mi.t.utokyo.ac.jp/static/projects/mil_multispectral/), [RoadScene](https://github.com/hanna-xu/RoadScene)/[FLIR_aligned](https://adas-dataset-v2.flirconservator.com/#downloadguide), and [LLVIP](https://github.com/bupt-ai-cz/LLVIP).
+We construct the Enhanced Multi-Spectral Various Scenarios Dataset for Degradation-Aware Image Fusion based on the original data of the [MFNet](https://www.mi.t.utokyo.ac.jp/static/projects/mil_multispectral/), [RoadScene](https://github.com/hanna-xu/RoadScene)/[FLIR_aligned](https://adas-dataset-v2.flirconservator.com/#downloadguide), [LLVIP](https://github.com/bupt-ai-cz/LLVIP) and [FMB](https://github.com/JinyuanLiu-CV/SegMiF).
+
+⭐⭐News: The code for the simulated degradation has also been released at [here](https://github.com/XunpengYi/EMS/tree/main/EMS_make_degradation_func), and it is now available for use. Researchers can freely simulate on their own required data. If you find this repo useful for your research, please cite our paper and star this repo.
 
 ## EMS-Lite
 EMS-Lite contains the low-quality and high-quality multi-spectral scenarios images along with the text prompts, enriching from the Text-IF dataset.
@@ -16,9 +18,15 @@ The EMS-Lite dataset (with text) is now available at [Google Drive](https://driv
 ## EMS-Full
 EMS-Full contains the low-quality and high-quality multi-spectral scenarios images. The degradation types are more diverse, and challenging.
 The degradation types include the low light, overexposure, rain, haze, blur and random noise in visible images, low contrast, stripe noise and random noise in infrared images. 
+In the EMS_Full dataset, we have additionally included scenes from the [FMB](https://github.com/JinyuanLiu-CV/SegMiF) to enhance diversity.
 
 The EMS-Full dataset is ready to be available pending the final verification. 
-The EMS-Full dataset will be available at here (to be done).
+The EMS-Full dataset will be available at [Google Drive](https://drive.google.com/file/d/1xgre9Jow1q_QEMSHi7QEpjNcakAR9Crf/view?usp=sharing) | [Baidu Drive](https://pan.baidu.com/s/1RsWUJpnEI2dvkmCTzL8hIQ) (code: eug7).
+
+⭐⭐News: The code for the simulated degradation has also been released at [here](https://github.com/XunpengYi/EMS/tree/main/EMS_make_degradation_func), and it is now available for use. Researchers can freely simulate on their own required data. 
+
+Since low light and overexposure in visible light, as well as low contrast in infrared, are real degradations, we use a combination of advanced restoration algorithms and manual restoration; 
+therefore, there is no separate code available. We recommend that researchers use our restored images. 
 ### Gallery
 ![EMS_full](assert/EMS_full.png)
 
@@ -64,6 +72,14 @@ Therefore, we also require that the researchers cite the paper corresponding to 
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   pages={3496--3504},
   year={2021}
+}
+
+@inproceedings{liu2023multi,
+  title={Multi-interactive feature learning and a full-time multi-modality benchmark for image fusion and segmentation},
+  author={Liu, Jinyuan and Liu, Zhu and Wu, Guanyao and Ma, Long and Liu, Risheng and Zhong, Wei and Luo, Zhongxuan and Fan, Xin},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={8115--8124},
+  year={2023}
 }
 ```
 
