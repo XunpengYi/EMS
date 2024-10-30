@@ -1,5 +1,0 @@
-Degraded image fusion data requires fully paired degraded and non-degraded images for supervised training. In EMS_lite, we adopt a combination of advanced restoration methods and manual repairs (Low Light, Over exposure, Low contrast) to achieve most of the degradation removal operations.  This means that most of the degradation is real, except for the simulated infrared noise degradation. Surely, this is quite a significant workload.
-
-In the EMS_full version, we provide a wider range of degraded scenarios (Blur, Haze, Rain, etc.). Due to the high cost of manual processes, we constructed these degradations using a simulated approach and provided corresponding scripts. In this process, we referenced relevant code available online, and we would like to express our gratitude to them. Researchers can use our scripts to construct simulated degradation on their own datasets as needed. 
-
-If these scripts or restored images are useful for your research, please cite our paper. To respect the original dataset authors, please also cite the publication papers for the MFNet, RoadScene/FLIR_aligned, and LLVIP datasets.
